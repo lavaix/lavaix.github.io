@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <div id="headercontainer">
+            <h1 id="headingid">Guess The<br><span id="numberspan">Number!</span></h1>
+        </div>
+        <div id="attemptcontainer">
+            <h2 id="attemptheading">Attempts: <span id="attemptcount">0</span></h2>
+        </div>
+        <div id="inputcontainer">
+            <label for="inputid" id="labelid">Enter a number between 1-100:</label>
+            <br>
+            <input type="number" placeholder="eg. 56, 69, 12" id="inputid" min="0" max="100">
+        </div>
+        <br>
+        <div id="buttoncontainer">
+            <button id="buttonid" type="button">GUESS!</button>
+        </div>
+        <div id="resultcontainer">
+            <h1 id="resultid">You havent entered a number yet</h1>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
